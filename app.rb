@@ -1,8 +1,8 @@
-require 'rubygems'
 require 'sinatra/base'
+require_relative 'routes/init'
 
-class App < Sinatra::Base
-  get '/' do
-    'Hello World!'
-  end
+get '/' do
+  'Hello World!'
 end
+
+run Sinatra::Application.run!

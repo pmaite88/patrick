@@ -1,0 +1,109 @@
+* {
+  font-family: lato, Helvetica, sans-serif;
+  text-shadow: rgba(0, 0 ,0, .01) 0 0 1px;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.page-wrapper  {
+  background-color: #171717;
+  left: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 635px;
+}
+
+.contact-list {
+  list-style-type: none;
+}
+
+.contact-list__item {
+  float: left;
+  padding: 0 20px;
+  height: 48px;
+  width: 48px;
+}
+
+.contact-icon {
+  cursor: pointer;
+  display: block;
+  height: 48px;
+}
+
+.contact-icon--github {
+  background: url('/images/github.png') no-repeat;
+}
+
+.contact-icon--envelope {
+  background: url('/images/envelope.png') no-repeat;
+}
+
+.contact-icon--twitter {
+  background: url('/images/twitter.png') no-repeat;
+}
+
+.page-footer {
+  border-top: #fff 1px solid;
+  padding: 15px 150px;
+}
+
+.page-header {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page-section {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page-section__line {
+  line-height: 32px;
+}
+
+.whisper {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.whisper--green {
+  color: springgreen;
+}
+
+.whisper--right {
+  color: gray;
+  display:block;
+  text-align: right;
+  line-height: 16px;
+}
+
+.greeting {
+  border-bottom: #fff 1px solid;
+  color: #fff;
+  font-size: 40px;
+  margin: 25px 0;
+}
+
+.greeting-name {
+  color: limegreen;
+  font-weight: 800;
+}
+
+.page-section--skyblue {
+  color: paleturquoise;
+  font-weight: 800;
+}
+
+.page-section--red {
+  color: crimson;
+  font-weight: 800;
+}
+
+.page-section--yellow {
+  color: gold;
+  font-weight: 800;
+}
