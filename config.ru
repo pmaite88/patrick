@@ -1,6 +1,7 @@
-require 'rubygems'
-require 'sinatra'
+require 'sinatra/base'
 
-require File.expand_path '../app.rb', __FILE__
+# Pull in the helpers and controllers
+Dir.glob('./app/{helpers,controllers}/*.rb').each { |file| require file }
 
-run App
+# Map the controllers to routes
+map('/') { run HomeController }

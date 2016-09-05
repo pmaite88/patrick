@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.c-container {
+  background: #FFF url(/images/sky.jpeg) no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.c-picture {
+  background: #FFF url(/images/me.png) no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 150px;
+  margin: 20px auto;
+  width: 150px;
+}
+
+.c-header {
+  padding: 20px
+}
+
+.c-profile {
+  color: #FFF;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.c-profile__title {
+  font-size: 2.7em;
+  font-weight: bold;
+}
+
+.c-profile__description {
+  font-size: 2em;
+  font-weight: bold;
+}
+

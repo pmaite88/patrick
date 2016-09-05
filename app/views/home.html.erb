@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="jquery-canvas-sparkles.js"></script>
+
+    <link href="stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body class='stars'>
+    <audio autoplay>
+      <source src="song.mp3" type="audio/mp3">
+    </audio>
+    <div class='c-container'>
+      <header>
+        <div class='c-header'>
+          <div class='c-profile'>
+            <div class='c-profile__title'>
+              I'm Patricio.
+            </div>
+            <div class='c-profile__description'>
+              I want to share some things with you
+            </div>
+          </div>
+        </div>
+
+        <div class='c-picture'>
+        </div>
+
+      </header>
+    </div>
+  <body>
+</html>
+
+
+<script>
+  $(document).ready(function() {
+    $(".stars").sparkle({
+    // accepts a HEX string, or "rainbow" or an array of HEX strings:
+    color: 'rainbow',
+    // determine how many sparkles will be on the element at a time
+    count: 60,
+    // tell the canvas how far over the edge of it's container it should overlap in pixels.
+    overlap: 0,
+    // set the speed multiplier
+    speed: 1,
+    // min size
+    minSize: 10,
+    // max size
+    maxSize: 30,
+
+    // "up", "down" or "both" to set which direction the sparkles will travel in.
+    direction: "both"
+
+    });
+
+    $(this).trigger("start.sparkle");
+  })
+
+</script>
