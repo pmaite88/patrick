@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  web:
+    build: .
+    working_dir: /usr/src/app
+
+  nginx:
+    image: nginx
+    ports:
+      - 8080:80
+    volumes:
+      - ./patrick_uy.template.conf:/etc/nginx/conf.d/default.conf
