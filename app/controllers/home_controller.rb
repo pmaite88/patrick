@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
 
-  get '/mock' do
+  get '/' do
      erb :'home.html'
   end
 end
