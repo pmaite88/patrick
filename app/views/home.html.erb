@@ -1,34 +1,54 @@
-<html>
+<!DOCTYPE html>
   <head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-
     <link href="stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,‌​100italic,300,300ita‌​lic,400italic,500,50‌​0italic,700,700itali‌​c,900italic,900' rel='stylesheet' type='text/css' />
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,800&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   </head>
 
-  <body class='page-container'>
-    <div class='header'>
-      <div class='header__title'>
-        Hello, I'm Patricio. This is my site.
-      </div>
+  <body class="page-wrapper">
+    <header class="page-header">
+      <h1 class="greeting">
+        Hello, I'm <span class="greeting-name">Patrick</span>
+      </h1>
+    </header>
 
-      <div class='button button--left'>
-        <p class='button__text'> Contact </p>
-      </div>
+    <section class="page-section">
+      <p class="page-section__line">
+        I'm a developer based in Montevideo, Uruguay.
+      </p>
 
-      <div class='button button--left'>
-        <p class='button__text'> My Projects </p>
-      </div>
+      <p class="page-section__line">
+        I've been working with <span class="page-section--red">Ruby</span> and <span class="page-section--yellow">JavaScript</span> for the past few years now.
+        <span class="whisper whisper--right">(psst! that's been a lot of fun!)</span>
+      </p>
 
-      <div class='button button--left'>
-        <p class='button__text'> Some Thoughts </p>
-      </div>
+      <p class="page-section__line">
+        What I do, I do with <span class="page-section--skyblue">passion and commitment</span>.
+      </p>
 
-      <div class='button button--left'>
-        <p class='button__text'> About Me </p>
-      </div>
+      <p class="page-section__line">
+         I enjoy sharing the things I've learned, and even more I enjoy discussing about what I yet not fully understand!
+        <span class="whisper whisper--green">(ehem... beer in hand, of course!)</span>
+      </p>
+    </section>
 
-
-    </div>
-  <body>
+    <footer class="page-footer">
+      <ul class="contact-list">
+        <li class="contact-list__item">
+          <a href="https://github.com/pmaite88" target="_blank">
+            <i class="contact-icon contact-icon--github"></i>
+          </a>
+        </li>
+        <li class="contact-list__item">
+          <a href="https://twitter.com/pat_ricio_88" target="_blank" >
+            <i class="contact-icon contact-icon--twitter"></i>
+          </a>
+        </li>
+        <li class="contact-list__item">
+          <a href="mailto:pmaite88@gmail.com" target="_blank">
+            <i class="contact-icon contact-icon--envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
